@@ -3,7 +3,7 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
-st.title(" SaiU_Iris ML CI/CD Demo")
+st.title("Iris ML CI/CD Demo")
 
 # Train model (simple demo)
 X, y = load_iris(return_X_y=True)
